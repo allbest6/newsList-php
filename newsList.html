@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百度新闻列表</title>
+    <link rel="stylesheet" href="css/newsList.css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/bootstrap-responsive.css"> -->
+</head>
+
+<body>
+    <header>
+        <!-- 头部 -->
+        <div class="nav-header-container nav-header-container-logo">
+            <a href="https://m.baidu.com" class="f-left baidu-icon"></a>
+            <a class="f-left profile-icon"></a>
+            <a class="f-right subscribe-icon"></a>
+            <a class="f-right search-icon"></a>
+        </div>
+        <!--导航  -->
+        <div>
+            <nav class="menu">
+				<ul class="cf">
+					<li class="select"><b></b><a value="">推荐</a></li>
+					<li><b></b><a value="2">百家</a></li>
+					<li><b></b><a value="3">本地</a></li>
+					<li><b></b><a value="4">图片</a></li>
+					<li><b></b><a value="5">娱乐</a></li>
+					<li><b></b><a value="6">社会</a></li>
+					<li><b></b><a value="7">军事</a></li>
+					<li><b></b><a value="8">科技</a></li>
+					<li><b></b><a value="9">女人</a></li>
+					<li><b></b><a value="10">搞笑</a></li>
+					<li><b></b><a value="11">生活</a></li>
+					<li><b></b><a value="12">国际</a></li>					
+					<!--<li><a href="">互联网</a></li>
+					<li><a href="">国内</a></li>
+					<li><a href="">体育</a></li>
+					<li><a href="">汽车</a></li>
+					<li><a href="">财经</a></li>
+					<li><a href="">房产</a></li>
+					<li><a href="">时尚</a></li>
+					<li><a href="">教育</a></li>
+					<li><a href="">游戏</a></li>
+					<li><a href="">旅游</a></li>
+					<li><a href="">人文</a></li>
+					<li><a href="">创意</a></li>
+					<li><a href="">互联网+</a></li>
+					<li><a href="">时尚网</a></li>
+					<li><a href="">观察网</a></li>
+					<li><a href="">NBA</a></li>
+					<li><a href="">苹果公司</a></li>
+					<li><a href="">推荐</a></li>-->
+				</ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Carousel items -->
+            <div class="carousel-inner" style="height:213px;">
+                <div class="active item">
+                	<img src="img/wed.jpg" alt="" style="width:100%;">
+                	<div class="carousel-caption"><p>韦德：希望下赛季出场时能介绍我“来自芝加哥”</p></div>
+                </div>
+                <div class="item">
+                	<img src="img/liang.jpg" alt="" style="width:100%;">
+                	<div class="carousel-caption"><p>湖人媒体日阿联亮相 拍宣传照受</p></div>
+                </div>
+                <div class="item">
+                	<img src="img/lin.jpg" alt="" style="width:100%;">
+                	<div class="carousel-caption"><p>林书豪换新发型 迎接新赛季</p></div>
+                </div>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+        <div id="newsContainer" class="newsContainer">
+			<!--js编写结构参考案例-->
+			<!--<div class="news-box">
+				<div class="box-img">
+					<img src="img/newslist/shengaiwei.jpg" alt="">
+				</div>
+				<div class="box-text">
+					<div class="box-title">习近平：加强合作推动全球治理体系变革</div>
+					<div class="box-time">2016-9-29</div>
+				</div>
+			</div>-->
+        </div>
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/newsList.js"></script>
+</body>
+
+</html>
